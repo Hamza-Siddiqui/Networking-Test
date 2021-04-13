@@ -260,6 +260,8 @@ GameObject:
   - component: {fileID: 1877149695}
   - component: {fileID: 1877149697}
   - component: {fileID: 1877149696}
+  - component: {fileID: 1877149699}
+  - component: {fileID: 1877149698}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -356,3 +358,35 @@ MonoBehaviour:
       type: {class: NullableBoolSerializable, ns: MLAPI.Configuration, asm: Unity.Multiplayer.MLAPI.Runtime}
       data:
         Value: 1897319656204293034
+--- !u!114 &1877149698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877149694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312f5504a4a80744b9a7cf3b217a2db2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawGUI: 1
+  offsetX: 5
+  offsetY: 150
+  width: 500
+  height: 400
+  refreshInterval: 3
+--- !u!114 &1877149699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877149694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96dee98c38af8284199c52281805901e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_serverPort: 18418
+  gameServerPortNumber: 7777
